@@ -1,3 +1,5 @@
+<h1>Gráficas de barras</h1>
+<hr>
 <div class="row">
     <div class="col">
         <div style="display: block;">
@@ -8,7 +10,11 @@
                 [type]="barChartType">
         </canvas>
         
-            <button color="primary" (click)="randomize()">Update</button>        
+            <button  (click)="randomize()"
+                    class="btn btn-primary float-end">
+                
+                    Actualizar
+            </button>        
         </div>
         
     </div>
